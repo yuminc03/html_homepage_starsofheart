@@ -1,0 +1,81 @@
+.logo > a > img{
+    width: 300px;
+    margin: 20px;
+}
+body{
+    font-family: 'sans-serif';
+    color: #222;
+    line-height: 2em;
+    font-weight: 300;
+    margin: 0;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    color: seashell;
+    text-shadow: 5px 5px 5px silver;
+    margin: 50px;
+}
+.items{
+    width: 700px;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: block;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.item{
+    /* border: 1px solid red; */
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+.quiz_btn{
+    /* background-color: #3c97ff; */
+    /* border: 1px solid #3c97ff; */
+    color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.btn1{
+    background-color: #ffffff;
+    border: 3px solid #82bcff;
+    color: black;
+}
+.btn1:hover{
+    background-color: #82bcff;
+    color: #ffffff;
+}
+.btn2{
+    padding: 20px 35px;
+}
+.score{
+    border: 2px solid rgb(255, 122, 122);
+    background-color: rgb(255, 122, 122);
+    color: #fff;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin: 10px;
+}
+.score:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}

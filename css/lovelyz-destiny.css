@@ -1,0 +1,68 @@
+.logo > a > img{
+    width: 300px;
+    margin: 20px;
+}
+body{
+    font-family: 'sans-serif';
+    color: #222;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+.title{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(247, 255, 177);
+    text-shadow: 5px 5px 3px yellow;
+    margin: 20px;
+}
+.warning{
+    text-align: justify;
+    font-size: 16px;
+    color: rgb(255, 110, 110);
+    margin-top: 50px;
+    margin: 20px;
+    display: flex;
+}
+.contents{
+    width: 1000px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin-top: 100px;
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(252, 255, 227);
+}
+.contents b{
+    color: yellow;
+}
+.eclipse{
+    width: 300px;
+    margin: 20px;
+}
+.eclipse img{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.411);
+    display: inline-block;
+    top: 50px;
+    position: absolute;
+    right: 50px;
+}
+.eclipse p{
+    font-size: 20px;
+    color: rgb(247, 255, 177);
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    margin: 20px;
+}
+.moon{
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+}

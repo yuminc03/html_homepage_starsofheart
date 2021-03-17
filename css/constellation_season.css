@@ -1,0 +1,143 @@
+body{
+    font-family:"Arial", "Helvetica", "sans-serif";
+}
+.logo > a > img{
+    width: 300px;
+    margin: 20px;
+}
+.intro{
+    background-color: rgb(20, 1, 90);
+    width: 1200px;
+    height: 160px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.introdution{
+    /* background-color: #fff; */
+    width: 900px;
+    height: 120px;
+    box-sizing: border-box;
+    margin: 10px;
+    /* border: 1px solid; */
+    display: inline-block;
+}
+.introdution p{
+    text-justify: auto;
+    font-size: 16px;
+    color: rgb(163, 203, 255);
+    line-height: 20px;
+    /* display: inline-block; */
+}
+.north{
+    /* border: 1px solid; */
+    width: 200px;
+    height: 120px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.north img{
+    width: 200px;
+}
+.point{
+    width: 200px;
+    height: 60px;
+    border: 1px solid;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 20px;
+    background-color: dodgerblue;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.point h2{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+.finding_way:hover .finding{
+    opacity: 1;
+    visibility: visible;
+}
+.finding{
+    background-color: rgb(29, 3, 122);
+    /* border: 1px solid #fff; */
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    opacity: 0;
+    visibility: hidden;
+}
+.finding img{
+    width: 280px;
+    border-radius: 30px;
+}
+.finding p{
+    font-size: 16px;
+    color: white;
+}
+.season{
+    width: 1400px;
+    height: 320px;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid #222; */
+    background-color: rgb(10, 0, 100);
+    border-radius: 30px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+.season:hover{
+    background-color: rgb(219, 197, 255);
+    transition: 0.5s;
+}
+.content{
+    width: 850px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    /* border: 1px solid #222; */
+    border-radius: 30px;
+    /* background-color: #fff; */
+}
+.content h1{
+    font-size: 36px;
+    color: dodgerblue;
+    /* border: 1px solid; */
+    text-shadow: 0 0 10px dodgerblue;
+}
+.content p{
+    font-size: 20px;
+    color: rgb(151, 40, 255);
+}
+.season_img{
+    width: 430px;
+    /* border: 1px solid #000; */
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+.season_img img{
+    margin: 10px;
+    width: 420px;
+    border-radius: 30px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>운에 맡기자! 게임</title>
+    <link rel="stylesheet" href="css/random_game.css" type="text/css">
+    <script src="javascript/random_game.js"></script>
+</head>
+<body background="image/main_background.jpg">
+    <div class="logo">
+        <a href="index.html">
+          <img class="img-logo" src="image/main_logo.png" alt="Logo">
+        </a>
+    </div>
+    <div class="container">
+        <form name="constellationform">
+            <table class="back">
+                <tr>
+                    <h1>운에 맡기자! 게임</h1>
+                </tr>
+                <tr class="fore">
+                    <td>
+                        <img name="constellation" src="image/constellation.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="button" type=button name=stellabutton value="선택하기"
+                            onclick="flipconstellation();">
+                        <input class="button" type=button name=stellabutton value="초기화" onclick="first();">
+                    </td>
+                </tr>
+            </table>
+            <input class="text1" type="text" size=30 name="face" value="">
+        </form>
+        <button class="button1" onclick="myFunction()">게임 설명서<br>열기/닫기</button>
+        <div id="myDIV">
+            <div class="menual" border="0"  cellspacing="2" cellpadding="2">
+                <div class="top_box">
+                    <h2>게임 설명</h2>
+                </div>
+                <div class="bottom_box">
+                    <p>
+                        1. 무작위로 나오는 별자리들중 나의 별자리가 얼마나 빨리 나올지 맞추는 게임입니다.<BR>
+                        2. 나의 별자리가 몇 번 안에 나올 지 맞추면 맞춘 사람이 정한 혜택을 받습니다.<BR>
+                        3. 처음부터 하려면 초기화 단추를 누르시면 됩니다.
+                    </p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

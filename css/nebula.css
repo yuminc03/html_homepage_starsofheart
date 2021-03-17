@@ -1,0 +1,76 @@
+.logo > a > img{
+    width: 300px;
+    margin: 20px;
+}
+body{
+    font-family: 'sans-serif';
+    color: #222;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 0;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+.container{
+    /* border: 1px solid; */
+    text-align: center;
+}
+.intro{
+    color: ghostwhite;
+    margin-top: 50px;
+    margin: 20px;
+    font-size: 15px;
+}
+.name{
+    color: rgb(206, 47, 255);
+    font-size: 16px;
+    margin: 20px;
+    margin-top: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+    position: relative;
+    margin: 10px;
+}
+.item img{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.527);
+}
+.caption{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.caption a{
+    color: #fff;
+    background-color: teal;
+    padding: 7px;
+    border-radius: 3px;
+}
+.caption a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.item:hover .caption{
+    opacity: 1;
+    transform: translateY(25%);
+}
+@media screen and (max-width: 780px){
+    .container .intro{
+        line-height: 40px;
+    }
+}
