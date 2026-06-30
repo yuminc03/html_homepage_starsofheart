@@ -34,25 +34,25 @@
 ### 🏠 메인
 - **`index.html`** — 메인 홈페이지. 마스코트 '로란'의 인사말, 드롭다운 네비게이션 메뉴, 탄생별자리/행성 페이지 배너 포함
 
-### ⭐ 별자리 (Constellation)
-- **`constellation_birth.html`** — 12개 탄생 별자리 목록. 각 별자리 캐릭터 이미지를 클릭하면 상세 페이지로 이동
-- **`constellation_season.html`** — 계절별 별자리 소개 (봄, 여름, 가을, 겨울)
+### ⭐ 별자리 (`constellation/`)
+- **`birth.html`** — 12개 탄생 별자리 목록. 각 별자리 캐릭터 이미지를 클릭하면 상세 페이지로 이동
+- **`season.html`** — 계절별 별자리 소개 (봄, 여름, 가을, 겨울)
 - 개별 탄생 별자리 페이지 (12개): `aries.html`, `taurus.html`, `gemini.html`, `cancer.html`, `leo.html`, `virgo.html`, `libra.html`, `scorpio.html`, `sagittarius.html`, `capricorn.html`, `aquarius.html`, `pisces.html`
 
-### 🪐 태양계 (Solar System)
+### 🪐 태양계 (`solar-system/`)
 - **`planet.html`** — 8개 행성(수성~해왕성) 소개. 각 행성의 이미지, 어원, 특징 설명
 - **`sun.html`** — 태양 소개
 
-### 🌌 태양계 외 (Deep Space)
+### 🌌 태양계 외 (`deep-space/`)
 - **`asteroid.html`** — 소행성 소개
 - **`nebula.html`** — 성운 소개 (오리온 대성운, 런닝맨 성운, 말머리 암흑성운 등)
 - **`galaxy.html`** — 은하 소개 (타원은하, 정상 나선은하, 막대 나선은하, 불규칙 은하)
 
-### 🎵 음악 가사 속 우주
+### 🎵 음악 가사 속 우주 (`music/`)
 - **`lovelyz_destiny.html`** — 러블리즈 - *Destiny(나의 지구)* 가사를 천문학적 관점에서 해석 (달-지구-태양의 관계)
 - **`bts_pluto.html`** — 방탄소년단(BTS) - *134340* 가사를 천문학적 관점에서 해석 (명왕성의 왜소행성 퇴출 이야기)
 
-### 🎮 미니게임
+### 🎮 미니게임 (`games/`)
 - **`random_game.html`** — **"운에 맡기자! 게임"**: 무작위로 등장하는 별자리 중 내 별자리가 몇 번 만에 나올지 예측하는 게임
 - **`star_quiz.html`** — **"☆STAR QUIZ☆"**: 10개 문항의 천문학 OX/선택 퀴즈 (북극성, 명왕성, 큰곰자리, 화성, 유성, 여름의 대삼각형, 태양과 달 등)
 
@@ -62,51 +62,62 @@
 
 ```
 html_homepage_starsofheart/
-├── index.html                  # 메인 홈페이지
+├── index.html                    # 메인 홈페이지 (GitHub Pages 진입점)
 │
-├── 별자리 페이지
-│   ├── constellation_birth.html
-│   ├── constellation_season.html
-│   └── aries.html / taurus.html / gemini.html / ...  (12개 탄생 별자리)
+├── constellation/                # ⭐ 별자리
+│   ├── birth.html               # 탄생 별자리 목록
+│   ├── season.html              # 계절별 별자리
+│   ├── aries.html               # 양자리
+│   ├── taurus.html              # 황소자리
+│   ├── gemini.html              # 쌍둥이자리
+│   ├── cancer.html              # 게자리
+│   ├── leo.html                 # 사자자리
+│   ├── virgo.html               # 처녀자리
+│   ├── libra.html               # 천칭자리
+│   ├── scorpio.html             # 전갈자리
+│   ├── sagittarius.html         # 사수자리
+│   ├── capricorn.html           # 염소자리
+│   ├── aquarius.html            # 물병자리
+│   └── pisces.html              # 물고기자리
 │
-├── 태양계 페이지
-│   ├── planet.html
-│   └── sun.html
+├── solar-system/                 # 🪐 태양계
+│   ├── planet.html              # 8개 행성 소개
+│   └── sun.html                 # 태양 소개
 │
-├── 태양계 외 페이지
-│   ├── asteroid.html
-│   ├── nebula.html
-│   └── galaxy.html
+├── deep-space/                   # 🌌 태양계 외
+│   ├── asteroid.html            # 소행성
+│   ├── nebula.html              # 성운
+│   └── galaxy.html              # 은하
 │
-├── 음악 가사 해석 페이지
-│   ├── lovelyz_destiny.html
-│   └── bts_pluto.html
+├── music/                        # 🎵 음악 가사 속 우주
+│   ├── lovelyz_destiny.html     # 러블리즈 - Destiny(나의지구)
+│   └── bts_pluto.html           # 방탄소년단 - 134340
 │
-├── 미니게임 페이지
-│   ├── random_game.html
-│   └── star_quiz.html
+├── games/                        # 🎮 미니게임
+│   ├── random_game.html         # 운에 맡기자! 게임
+│   └── star_quiz.html           # Star Quiz
 │
-├── css/                        # 각 페이지별 CSS 스타일시트 (24개)
+├── css/                          # 각 페이지별 CSS 스타일시트 (24개)
 │   ├── index.css
 │   └── ...
 │
-├── js/                         # jQuery 및 메인 스크립트
+├── js/                           # jQuery 및 메인 스크립트
 │   ├── jquery-1.12.4.js
-│   ├── index.js                # 드롭다운 메뉴 (jQuery slideDown/slideUp)
+│   ├── index.js                 # 드롭다운 메뉴 (jQuery slideDown/slideUp)
 │   └── constellation_birth.js
 │
-├── javascript/                 # 게임 로직 스크립트
+├── javascript/                   # 게임 로직 스크립트
 │   ├── random_game.js
 │   └── star_quiz.js
 │
-└── image/                      # 이미지 리소스 (72개)
-    ├── icon.png                # 파비콘 / 앱 아이콘
-    ├── main_background.jpg     # 전체 배경 이미지
-    ├── main_logo.png           # 사이트 로고
-    ├── my_site_char.png        # 마스코트 '로란' 캐릭터
-    ├── char_*.png              # 12개 탄생 별자리 캐릭터 이미지
-    ├── star_*.jpg              # 별자리 실제 사진
-    ├── *_big.jpg               # 별자리 대형 이미지
+└── image/                        # 이미지 리소스 (72개)
+    ├── icon.png                 # 파비콘 / 앱 아이콘
+    ├── main_background.jpg      # 전체 배경 이미지
+    ├── main_logo.png            # 사이트 로고
+    ├── my_site_char.png         # 마스코트 '로란' 캐릭터
+    ├── char_*.png               # 12개 탄생 별자리 캐릭터 이미지
+    ├── star_*.jpg               # 별자리 실제 사진
+    ├── *_big.jpg                # 별자리 대형 이미지
     └── (행성, 은하, 성운 등 각종 천체 이미지)
 ```
 

@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="180x180" href="image/icon.png" />
-    <link rel="icon" type="image/png" href="image/icon.png" sizes="180x180" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../image/icon.png" />
+    <link rel="icon" type="image/png" href="../image/icon.png" sizes="180x180" />
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <title>운에 맡기자! 게임</title>
-    <link rel="stylesheet" href="css/random_game.css" type="text/css">
-    <script src="javascript/random_game.js"></script>
+    <link rel="stylesheet" href="../css/random_game.css" type="text/css">
+    <script src="../javascript/random_game.js"></script>
 </head>
-<body background="image/main_background.jpg">
+
+<body background="../image/main_background.jpg">
     <div class="logo">
-        <a href="index.html">
-          <img class="img-logo" src="image/main_logo.png" alt="Logo">
+        <a href="../index.html">
+            <img class="img-logo" src="../image/main_logo.png" alt="Logo">
         </a>
     </div>
     <div class="container">
@@ -25,13 +27,12 @@
                 </tr>
                 <tr class="fore">
                     <td>
-                        <img name="constellation" src="image/constellation.jpg">
+                        <img name="constellation" src="../image/constellation.jpg">
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <input class="button" type=button name=stellabutton value="선택하기"
-                            onclick="flipconstellation();">
+                        <input class="button" type=button name=stellabutton value="선택하기" onclick="flipconstellation();">
                         <input class="button" type=button name=stellabutton value="초기화" onclick="first();">
                     </td>
                 </tr>
@@ -40,7 +41,7 @@
         </form>
         <button class="button1" onclick="myFunction()">게임 설명서<br>열기/닫기</button>
         <div id="myDIV">
-            <div class="menual" border="0"  cellspacing="2" cellpadding="2">
+            <div class="menual" border="0" cellspacing="2" cellpadding="2">
                 <div class="top_box">
                     <h2>게임 설명</h2>
                 </div>
@@ -51,7 +52,8 @@
                         3. 처음부터 하려면 초기화 단추를 누르시면 됩니다.
                     </p>
                 </div>
+            </div>
         </div>
-    </div>
 </body>
+
 </html>
