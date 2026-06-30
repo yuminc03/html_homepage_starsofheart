@@ -1,0 +1,92 @@
+# ===========================
+# OS 생성 파일
+# ===========================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ===========================
+# IDE / 에디터
+# ===========================
+
+# JetBrains (IntelliJ IDEA, WebStorm 등)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ===========================
+# 로그 및 임시 파일
+# ===========================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ===========================
+# 정적 웹사이트 (HTML/CSS/JS)
+# ===========================
+
+# npm / Node.js (로컬 개발 도구 사용 시)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.yarn
+
+# 빌드 결과물 (번들러 사용 시)
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# ===========================
+# 환경 설정
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
